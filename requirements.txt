@@ -1,0 +1,34 @@
+# RetailLake 360 Enterprise Data Lakehouse & Analytics Platform
+# Primary Relational Database: MySQL 8.4 LTS
+# NOTE: All PostgreSQL drivers, connectors, and dependencies have been strictly removed.
+
+# Database & ORM
+SQLAlchemy>=2.0.25
+PyMySQL>=1.1.0
+cryptography>=41.0.7
+
+# Big Data & Lakehouse
+pyspark>=3.5.0
+delta-spark>=3.0.0
+pyarrow>=14.0.2
+pandas>=2.1.4
+numpy>=1.26.2
+
+# Serving & Dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
+altair>=5.2.0
+
+# Workflow Orchestration
+apache-airflow>=2.8.1
+
+# Configuration & Utilities
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Quality & Testing
+pytest>=7.4.3
+pytest-mock>=3.12.0
+ruff>=0.1.9
